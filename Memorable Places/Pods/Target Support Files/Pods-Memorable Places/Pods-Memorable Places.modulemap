@@ -1,0 +1,6 @@
+framework module Pods_Memorable_Places {
+  umbrella header "Pods-Memorable Places-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Location_Aware {
+  umbrella header "Pods-Location Aware-umbrella.h"
+
+  export *
+  module * { export * }
+}
