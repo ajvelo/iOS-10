@@ -30,12 +30,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let configuration = ParseClientConfiguration {
             // Add your Parse applicationId:
-            $0.applicationId = "06c7311b4ef001d417bd391ed7bdf4112f67e4c3"
+            $0.applicationId = "APPID"
             // Uncomment and add your clientKey (it's not required if you are using Parse Server):
-            $0.clientKey = "6d0af5954a21291d8db615e6370b10eecd1c7343"
+            $0.clientKey = "CLIENTKEY"
 
             // Uncomment the following line and change to your Parse Server address;
-            $0.server = "http://ec2-13-59-240-147.us-east-2.compute.amazonaws.com/parse"
+            $0.server = "SERVER"
 
             // Enable storing and querying data from Local Datastore.
             // Remove this line if you don't want to use Local Datastore features or want to use cachePolicy.
